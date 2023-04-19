@@ -28,8 +28,18 @@
     </div>
     <div id = "content">
         <h3>Repozytoria Git</h3>
-        <p><b>System kotnroli werjsi</b> - jest to stystem pozwalający na sprawdzanie zmianw kodzie źródłowym oraz pomaga programistom w pracy zespołowej.<br>
-        Aby zacząć korzystać z GIT-a wystarczy pobrać Git brush. Można utworzyć projekt komendą lub otwrzyć folder za pomogcą Git Brush. Wtedy wystarczy w konsoli wpisać '$git init' i repozytorium zostało utworzone.<br>
+        <p>
+            <b>System kotnroli werjsi</b> - jest to stystem pozwalający na sprawdzanie zmianw kodzie źródłowym oraz pomaga programistom w pracy zespołowej.<br>
+            Aby zacząć korzystać z GIT-a wystarczy pobrać Git brush. Można utworzyć projekt komendą lub otwrzyć folder za pomogcą Git Brush. Wtedy wystarczy w konsoli wpisać '$git init' i repozytorium zostało utworzone.<br>
+            Jest tworzony kalalog '.git' i posaida on cały szkielet GIT-a.<!--Tu ma być o właściwościach folderu .git--> <br>
+            Aby zaoszczędzić czas oraz miejsec w zdalnym repozytorium towrzymi plik o nazwie <b>'.gitignore'</b>. Posiada on w sobie nazwy plików, których ma nie zapisywać przez co zapisuje on tylko to co niezbędne.<br>
+            Pliki mają kilka stanów repozytorium: <b>Untracked, Modified, Commited</b>. Untracked to stan pliku, w którym git nie śledzi w nim zmian. Aby przejść do następnego stanu(Commited) wystarczy użyć komendy <b>'git add (nazwa pliku lub '.' aby dodać wszystkie pliki)'</b>. 
+            Modified jest to stan gdzie git śledzi zmiany w tym pliku. Tu any przejść do nastepnego stanu wystarczy zrobić tak samo jak byśmy dodawali nowy plik. Następnym stanem jest Commited czy plik, którego zmiany zostały zapisane na lokalnym repozytorium i może zostać wysłany na zdalne repozytorium.
+            Oczywiście można przestać śledzić plik - aby go usunąć - lub go wyciągnąć go ze stanu Commited za pomocą komendy <b>'git restore'.</b><br>
+            Git może tworzyć gałęzie(branch) jest to odbicie od głównej ścieżki rozwoju aby przetesować inną funkcje nie naruszając głównej strukyury programu.
+            Nową gałąź tworzymy za pomocą komendy <b>'git branch (nazwa gałęzi)</b>, to polecenie tylko tworzy i nie przenosi na nowa gałąź. Oczywiście jest możliwość przełączania się pomiędzy gałęziami inaczej nie miało by to sensu. Służy do tego komenda <b>'git checkout (nazwa gałęźi)'</b>.
+            Jednak skąd Git wie na której gałęźi jesteśmy? Utrzymuje on znacznik HEAD nad branchem, w którym pracujemy.<br>
+            Same gałęzie można połączyć 
         </p>
     </div>
     <div id = "footer">
