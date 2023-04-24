@@ -1,6 +1,7 @@
 *
 {
     box-sizing: border-box;
+    margin: 0;
 }
 #header
 {
@@ -10,13 +11,13 @@
     font-size: 32px;
     font-weight: bold;
     padding: 35px;
-    background-color: #26e059;
+    background-color: #1dc94b;
     text-shadow: 3px 3px 5px #08c1ff;
 }
 #menu
 {
     width: 15%;
-    background-color: lightcyan;
+    background-color: #00b330;
     float: left;
     min-height: 775px;
 }
@@ -42,20 +43,20 @@
     float: left;
     padding: 20px;
     text-align: center;
-    background-color: lightblue;
+    background-color: #4ee476;
 }
 #footer
 {
-    width: 100%;
-    height: 65px;
+    width: 85%;
+    height: 50px;
     padding: 7px;
     font-size: 18px;
     float: left;
     text-align: center;
-    background-color: lightskyblue;
+    background-color: #1dc94b;
 }
 
 .active
 {
-    background-color: #44f273;
+    background-color: #7fff7a;
 }
