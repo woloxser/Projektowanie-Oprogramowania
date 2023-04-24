@@ -5,19 +5,21 @@
 #header
 {
     width: 100%;
-    height: 150px;
+    height: 100px;
     text-align: center;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: bold;
-    padding: 50px;
-    background-color: lightskyblue;
+    padding: 35px;
+    background-color: #26e059;
+    text-shadow: 3px 3px 5px #08c1ff;
 }
 #menu
 {
     width: 15%;
     background-color: lightcyan;
     float: left;
-    min-height: 650px;}
+    min-height: 775px;
+}
 #menu ul
 {
     list-style-type: none;
@@ -36,7 +38,7 @@
 #content
 {
     width: 85%;
-    min-height: 650px;
+    min-height: 725px;
     float: left;
     padding: 20px;
     text-align: center;
@@ -52,7 +54,8 @@
     text-align: center;
     background-color: lightskyblue;
 }
+
 .active
 {
-    background-color: lightgreen;
+    background-color: #44f273;
 }
