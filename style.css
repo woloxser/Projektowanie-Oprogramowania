@@ -12,13 +12,13 @@
     font-size: 32px;
     font-weight: bold;
     padding: 35px;
-    background-color: #1dc94b;
-    text-shadow: 3px 3px 5px #08c1ff;
+    background-color: #ff5d9e;
+    
 }
 #menu
 {
     width: 15%;
-    background-color: #00b330;
+    background-color: #8bffff;
     float: left;
     min-height: 775px;
 }
@@ -44,7 +44,7 @@
     float: left;
     padding: 20px;
     text-align: center;
-    background-color: #4ee476;
+    background-color: #8f71ff;
 }
 #footer
 {
@@ -54,10 +54,24 @@
     font-size: 18px;
     float: left;
     text-align: center;
-    background-color: #1dc94b;
+    background-color: #ff5d9e;
 }
-
+#panel1
+{
+    height: 250px;
+    display: none;
+    width: 250px;
+    margin: 10;
+    background-color: #8f71ff;
+    position: absolute;
+    left: 15px;
+}
+#menu2
+{
+    text-align: center;
+    font-size: 24px;
+}
 .active
 {
-    background-color: #7fff7a;
+    background-color: #ff5d9e;
 }
