@@ -36,20 +36,25 @@
     </div>
     <div id = "content">
         <p> 
-            <b>System kotnroli wersji</b> - jest to stystem pozwalający na sprawdzanie zmian w kodzie źródłowym projektu oraz pomaga w pracy zespołowej.<br> 
-            Aby zacząć korzystać z GIT-a wystarczy pobrać Git brush. Można utworzyć projekt komendą lub otwrzyć folder za pomogcą Git Brush.Wystarczy otworzyc folder za pomocą git bush i wpisać <b>'git init'</b> i repozytorium zostanie utworzone.<br> 
-            Aby zaoszczędzić czas oraz miejsec w zdalnym repozytorium towrzymi plik o nazwie <b>'.gitignore'</b>. Posiada on w sobie rozszerzenia plików, których ma nie zapisywać przez co na zdalnym i lokalnym repozytorium jest to co niezbędne.<br> 
-            Pliki mają kilka stanów: <b>Untracked, Modified, Commited</b>. Untracked to stan pliku, w którym git nie śledzi zmian, które się w nim dzieją. Aby przejść do następnego stanu(Commited) wystarczy użyć komendy <b>'git add (nazwa pliku lub '.' aby dodać wszystkie pliki)'</b>.  
-            Modified jest to stan gdzie git śledzi zmiany w tym pliku. Tu any przejść do nastepnego stanu wystarczy zrobić tak samo jak byśmy dodawali nowy plik. Następnym stanem jest Commited czy plik, którego zmiany zostały zapisane na lokalnym repozytorium i może zostać wysłany na zdalne repozytorium. 
-            Oczywiście można przestać śledzić plik - aby go usunąć - lub go wyciągnąć go ze stanu Commited za pomocą komendy <b>'git restore'.</b><br> 
-            Git może tworzyć gałęzie(branch) jest to odbicie od głównej ścieżki rozwoju aby przetesować inną funkcje nie naruszając głównej strukyury programu.
-            Nową gałąź tworzymy za pomocą komendy <b>'git branch (nazwa gałęzi)</b>, to polecenie tylko tworzy i nie przenosi na nowa gałąź. Oczywiście jest możliwość przełączania się pomiędzy gałęziami inaczej nie miało by to sensu. Służy do tego komenda <b>'git checkout (nazwa gałęźi)'</b>. 
-            Jednak skąd Git wie na której gałęźi jesteśmy? Utrzymuje on znacznik HEAD nad branchem, w którym pracujemy.<br>
-            Same gałęzie można połączyć ze sobą za pomocą <b>'git merge (nazwa gałęzi)'</b>. Git merge szuka commita bazowego spośród końcówek gałęźi, które łączymy. Gdy go znajdzie to utworzy 'commit scalania'. Jednak jeżeli znajdzie konflikt to użytkownik musi zareagować.<br> 
-            Można podejżeć historię repozytorium za pomocą komendy <b>'git log'</b>. Wyświetla ona wszystkie zatwierdzone zmiany w odwrotnej kolejności czyli najnowsze na samej górze. Jest wiele możliwości wyświetlenia logu. Można użyć dodatkowego polecenia <b>--graph</b> i zostanie zbudowany ładny graf w ASCII<br>. 
-            Istnieją też dalne repozytoria takie jak GitHub. Zdalne repozytorium to wersja twojego projektu utrzymywana na serwerze dostępnym poprzez Internet lub inną sieć. Możesz mieć ich kilka, z których każde może być tylko do odczytu lub zarówno odczytu jak i zapisu. Wykorzystywana jest komenda <b>'git push'</b> aby wysłać tam swój projekt.<br> 
-            Ale aby wysłać trzeba najpierw dodać połączyć swoje konto np. na GitHub z gitem loklanym. Można również pobierać swoje repozytorai za pomocą komendy <b>'git pull origin main'</b>. Ale napierw zalecane jest użycie komendy <b>'git fetch'</b>, która pobiera zdalne repozytorium nienaruszająć lokalnego zaś <b>'git pull'</b> odrazu zamienia pliki. 
+            <b>Git</b> - jest to system kontroli wersji, pozwalający na śledzenie zmian w kodzie oraz polepsza pracę zespołową<br>  
 
+            →Aby zacząć korzystać z GIT-a wystarczy pobrać Git bash. Można utworzyć projekt komendą lub otworzyć folder, w którym chcemy śledzić zmiany, pomocą Git Bash.<br>  
+
+            →Aby zaoszczędzić czas oraz miejsce w zdalnym repozytorium tworzymy plik o nazwie <b>'.gitignore'</b>. Posiada on w sobie rozszerzenia plików, których ma nie zapisywać przez co na zdalnym repozytorium jest to co niezbędne aby kontynuować pracę z każdego miejsca na świecie z dostępem do internetu.<br>  
+
+            →Git posiada trzy stany, w których mogą znajdować się pliki: <b>zatwierdzony, zmodyfikowany oraz oczekujący w poczekalni</b>. Zatwierdzony oznacza, że dane zostały bezpiecznie zachowane w Twojej lokalnej bazie danych. Zmodyfikowany oznacza, że plik został zmieniony, ale zmiany nie zostały wprowadzone do bazy danych.<br>   
+
+            →Git może tworzyć tzw. gałęzie(branch) jest to odbicie od głównej ścieżki rozwoju aby przetesować inną funkcje nie naruszając głównej struktury programu.  
+
+            →Jednak skąd Git wie na której gałęźi jesteśmy? Utrzymuje on znacznik HEAD nad branchem, w którym pracujemy.<br> 
+
+            →Same gałęzie można łączyć ze sobą. Git merge szuka commita bazowego spośród końcówek gałęźi, które łączymy. Gdy go znajdzie to utworzy 'commit scalania'. Jednak jeżeli znajdzie konflikt to użytkownik musi zareagować.<br>  
+
+            →Można podejrzeć historię repozytorium. Wyświetla ona wszystkie zatwierdzone zmiany w odwrotnej kolejności czyli najnowsze na samej górze. Jest wiele możliwości wyświetlenia logu.<br>.  
+
+            →Istnieją też zdalne repozytoria takie jak GitHub. Zdalne repozytorium to wersja twojego projektu utrzymywana na serwerze dostępnym poprzez Internet lub inną sieć. Możesz mieć ich kilka, z których każde może być tylko do odczytu lub zarówno odczytu jak i zapisu.<br>  
+
+            →Ale aby wysłać trzeba najpierw dodać połączyć swoje konto np. na GitHub z gitem loklanym. Po stworzeniu zdalnego repozytorium np. GitHub sam kieruje użytkownika do połączenia się z kontem.  
         </p> 
 
  
