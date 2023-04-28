@@ -21,6 +21,7 @@
     background-color: #8bffff;
     float: left;
     min-height: 775px;
+    margin: 10;
 }
 #menu ul
 {
@@ -60,9 +61,9 @@
 {
     height: 250px;
     display: none;
-    width: 250px;
-    margin: 10;
-    background-color: #8f71ff;
+    width: inherit;
+    margin: inherit;
+    background-color: #af99ff;
     position: absolute;
     left: 15px;
 }
