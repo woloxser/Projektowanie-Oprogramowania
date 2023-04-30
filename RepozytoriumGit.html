@@ -16,7 +16,9 @@
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
     }
-
+#panel2{
+    display: none;
+}
 </style>
 <body>
     <div id = "header">
@@ -57,10 +59,23 @@
             →Ale aby wysłać trzeba najpierw dodać połączyć swoje konto np. na GitHub z gitem loklanym. Po stworzeniu zdalnego repozytorium np. GitHub sam kieruje użytkownika do połączenia się z kontem.  
         </p> 
 
- 
+        <h2 id = "menu3">⇒Przydatne Komendy Do Git</h2>
+        <div id = "panel2">
+            <p>
+                cos
+            </p>
+        </div>
     </div>
     <div id = "footer">
         <p>Autor: Wiktor Wolnik</p>
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#menu3").click(function(){
+            $("#panel2").slideToggle("slow");
+            });
+        });
+    </script>
 </body>
 </html>
