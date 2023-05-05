@@ -25,10 +25,18 @@
         </div>
     </div>
     <div id = "content">
-        <p>Techniki zwinne są to metody pracy dla tych, którzy nie odnajduja się w uporządkowanym modelu kaskadowym. Jednak wymagają one dużej samoorganizacji zespołó oraz wysokiej koncentracji wielu kompetencji.</p>
+        <p>Techniki zwinne są to metody pracy dla tych, którzy nie odnajduja się w uporządkowanym modelu kaskadowym - zastępstwo dla modelu kaskadowego Waterfall. Jednak wymagają one dużej samoorganizacji zespołó oraz wysokiej koncentracji wielu kompetencji.</p>
         <h2 id = "agile">Co to jest manifest Agile? ↧</h2>
         <div id = "PanelAgile">
-            <p></p>
+            <p>Manifest Agile jest znay jako Manifest dla Deweleoperów Oprobramowania. Został on opublikowany w 2001 roku w Stanach Zjednoczonych.
+                Jako Ciekawostkę manifest ten powstał w ośrodku narciarksim gdzie spotkała się grupa siedmnastu programistów reprezentujących różne podejścia i metody budowania progrmaów. Zamiast jeździć na nratach/snowbordzie to dysktuowali nad filarami. 
+                Podstawą manifestu są:<br>
+                <b>->Ludzie i interakcje ponad procesy i narzędzia;<br>
+                ->Działająće oprgramowanie oidab obszerną dokumentację;<br>
+                ->Współpraca z klientem ponad foramlne ustawienia;<br>
+                ->Reagowanie na zmiany ponad podążanie za plane.<br></b> Byli oni zgodni co do tych czterch filarów i zostały one bazą mainfestiu. Zasady można znaleźć na oficjalnej stornie manifestu. Warto zaznaczyć że autorzy zwracają większą uwagę na czynnik ludzki oraz wszystkie wartości, które mogą przynieść korzyść deweloperowi jka i klientowi.
+            </p>
+            <button id = "butAgile" onclick="mainfest()">12 zadasad manifestu Aigle</button>
         </div>
         
         <br><h2 id = "scrum">Co to Scrum? ↧</h2>
@@ -60,6 +68,12 @@
                 $("#PanelKanban").slideToggle("slow")
             });
         });
+
+        function mainfest()
+        {
+            var okno = window.open("","","width=800,height=500");
+            okno.document.write("<p>12 zasad manifestu:<br>1.Najwyższy priorytet ma dla nas zadowolenie klienta dzięki wczesnemu i ciągłemu wdrażaniu wartościowego oprogramowania.<br>2. Bądźcie gotowi na zmiany wymagań nawet na późnym etapie jego rozwoju. Procesy zwinne wykorzystują zmiany dla zapewnienia klientowi konkurencyjności.<br>3.Dostarczajcie funkcjonujące oprogramowanie często, w kilkutygodniowych lub kilkumiesięcznych odstępach. Im częściej, tym lepiej.<br>4.Zespoły biznesowe i deweloperskie muszą ściśle ze sobą współpracować w codziennej pracy przez cały czas trwania projektu.<br>5.Twórzcie projekty wokół zmotywowanych ludzi. Zapewnijcie im potrzebne środowisko oraz wsparcie i zaufajcie, że wykonają powierzone zadanie.<br>6.Najbardziej efektywnym i wydajnym sposobem przekazywania informacji zespołowi deweloperskiemu i wewnątrz niego jest rozmowa twarzą w twarz.<br>7.Działające oprogramowanie jest podstawową miarą postępu.<br>8.Procesy zwinne umożliwiają zrównoważony rozwój. Sponsorzy, deweloperzy oraz użytkownicy powinni być w stanie utrzymywać równe tempo pracy.<br>9.Ciągłe skupienie na technicznej doskonałości i dobrym projektowaniu zwiększa zwinność.<br>10.Prostota – sztuka minimalizowania ilości koniecznej pracy – jest kluczowa.<br>11.Najlepsze rozwiązania architektoniczne, wymagania i projekty pochodzą od samoorganizujących się zespołów.<br>12.W regularnych odstępach czasu zespół analizuje możliwości poprawy swojej wydajności, a następnie dostraja i dostosowuje swoje działania do wyciągniętych wniosków. </p>")
+        }
     </script>
 </body>
 </html>
