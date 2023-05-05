@@ -4,7 +4,7 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("#menu3").click(function(){
-        $("#panel2").slideToggle("slow");
+    $("#git").click(function(){
+        $("#gitPanel").slideToggle("slow");
     });
 });

@@ -25,23 +25,41 @@
         </div>
     </div>
     <div id = "content">
-        <h2>Co to jest manifest Agile</h2>
-        <div>
-
+        <p>Techniki zwinne są to metody pracy dla tych, którzy nie odnajduja się w uporządkowanym modelu kaskadowym. Jednak wymagają one dużej samoorganizacji zespołó oraz wysokiej koncentracji wielu kompetencji.</p>
+        <h2 id = "agile">Co to jest manifest Agile? ↧</h2>
+        <div id = "PanelAgile">
+            <p></p>
         </div>
         
-        <h2>Co to Scrum</h2>
-        <div>
-
+        <br><h2 id = "scrum">Co to Scrum? ↧</h2>
+        <div id = "PanelScrum">
+            <p>Taki panel</p>
         </div>
         
-        <h2>Co to jest Kanban</h2>
-        <div>
-            
+        <br><h2 id = "kanban">Co to jest Kanban? ↧</h2>
+        <div id = "PanelKanban">
+            <p>Też panel</p>
         </div><!--Rozpisać się na czym polega Scrum i kanban. Opisać jakie są. Manifest Agile-->
     </div>
     <div id = "footer">
         <p>Autor: Wiktor Wolnik</p>
     </div>
+    <script>
+        $(document).ready(function(){
+            $("#agile").click(function(){
+                $("#PanelAgile").slideToggle("slow")
+            });
+        });
+        $(document).ready(function(){
+            $("#scrum").click(function(){
+                $("#PanelScrum").slideToggle("slow")
+            });
+        });
+        $(document).ready(function(){
+            $("#kanban").click(function(){
+                $("#PanelKanban").slideToggle("slow")
+            });
+        });
+    </script>
 </body>
 </html>
