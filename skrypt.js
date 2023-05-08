@@ -10,17 +10,29 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $("#agile").click(function(){
-        $("#PanelAgile").slideToggle("slow")
+        $("#PanelAgile").slideToggle("slow", function(){
+            $("#PanelScrum").slideUp("fast",function(){
+                $("#PanelKanban").slideUp("fast")
+            });
+        });
     });
 });
 $(document).ready(function(){
     $("#scrum").click(function(){
-        $("#PanelScrum").slideToggle("slow")
+        $("#PanelScrum").slideToggle("slow",function(){
+            $("#PanelKanban").slideUp("fast",function(){
+                $("#PanelAgile").slideUp("fast")
+            });
+        });
     });
-});
+}); 
 $(document).ready(function(){
     $("#kanban").click(function(){
-        $("#PanelKanban").slideToggle("slow")
+        $("#PanelKanban").slideToggle("slow",function(){
+            $("#PanelScrum").slideUp("fast",function(){
+                $("#PanelAgile").slideUp("fast")
+            });
+        });
     });
 });
 
