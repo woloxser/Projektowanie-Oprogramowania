@@ -20,7 +20,7 @@
     width: 15%;
     background-color: #8bffff;
     float: left;
-    min-height: 775px;
+    min-height: 800px;
     margin: 10;
 }
 #menu ul
@@ -41,7 +41,7 @@
 #content
 {
     width: 85%;
-    min-height: 725px;
+    min-height: 750px;
     float: left;
     padding: 20px;
     text-align: center;
@@ -79,7 +79,7 @@
     text-align: center;
     font-size: 24px;
 }
-#gitPanel, #PanelAgile, #PanelScrum, #PanelKanban{
+#gitPanel, #PanelAgile, #PanelScrum, #PanelKanban,#PanelKreacyjne ,#PanelStruk, #PanelBeh,#MVCPanel{
     display: none;
 }
 #git
@@ -87,6 +87,10 @@
     text-align: left;
     font-size: 28px;
     font-style: oblique;
+}
+#z1{
+    float: right;
+    width: 500px;
 }
 #z2
 {
@@ -103,6 +107,14 @@
     border: none;
     font-size: 16px;
     font-weight: bold;
+}
+#krecayjne, #behawioralne
+{
+    text-align: left;
+}
+#strukturalne,#MVC
+{
+    text-align: right;
 }
 .active
 {
