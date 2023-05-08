@@ -30,12 +30,57 @@ $(document).ready(function(){
     $("#kanban").click(function(){
         $("#PanelKanban").slideToggle("slow",function(){
             $("#PanelScrum").slideUp("fast",function(){
-                $("#PanelAgile").slideUp("fast")
+                $("#PanelAgile").slideUp("fast", function(){
+                    $("#MVCPanel").slideUp("fast");
+                });
             });
         });
     });
 });
-
+$(document).ready(function(){
+    $("#krecayjne").click(function(){
+        $("#PanelKreacyjne").slideToggle("slow", function(){
+            $("#PanelStruk").slideUp("fast",function(){
+                $("#PanelBeh").slideUp("fast", function(){
+                    $("#MVCPanel").slideUp("fast");
+                });
+            });
+        });
+    });
+});
+$(document).ready(function(){
+    $("#strukturalne").click(function(){
+        $("#PanelStruk").slideToggle("slow", function(){
+            $("#PanelBeh").slideUp("fast",function(){
+                $("#PanelKreacyjne").slideUp("fast", function(){
+                    $("#MVCPanel").slideUp("fast");
+                });
+            });
+        });
+    });
+});
+$(document).ready(function(){
+    $("#behawioralne").click(function(){
+        $("#PanelBeh").slideToggle("slow", function(){
+            $("#PanelStruk").slideUp("fast",function(){
+                $("#PanelKreacyjne").slideUp("fast", function(){
+                    $("#MVCPanel").slideUp("fast");
+                });
+            });
+        });
+    });
+});
+$(document).ready(function(){
+    $("#MVC").click(function(){
+        $("#MVCPanel").slideToggle("slow", function(){
+            $("#PanelBeh").slideUp("fast", function(){
+                $("#PanelStruk").slideUp("fast",function(){
+                    $("#PanelKreacyjne").slideUp("fast")
+                });
+            });
+        });
+    });
+});
 function mainfest()
 {
     var okno = window.open("","","width=800,height=500");
