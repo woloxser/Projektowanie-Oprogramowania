@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wzroce Projektowe</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src = "skrypt.js"></script>
@@ -25,7 +25,60 @@
         </div>
     </div>
     <div id = "content">
-        <p>Storna Poświęcona Programowianiu Oprogramowania</p>
+        <p>
+            <b>Wzorzec projektowy</b> - uniwersalne, sprawdzone w praktyce rozwiązanie często pojawiających się, powtarzalnych problemów projektowych. 
+            Pokazuje powiązania i zależności pomiędzy klasami oraz obiektami, ułatwia tworzenie, modyfikację oraz utrzymanie kodu źródłowego. 
+            Wzorce projektowe stosowane są w projektach wykorzystujących programowanie obiektowe.<br>
+            Początkowo Banda Czterech założyła istnie dwuch podstawowych kwalifikacji wzorców. Pierwsza dotyczy jego opisu oraz zadań. Zgodnie z tym mamy trzy rodziny:<br>
+            ->Kreacyjne;<br>
+            ->Strukturalne;<br>
+            ->Bechawioralne inaczej operacyjne;<br>
+            Drugi model dzieli na kategorie zakresów. Określamy czy wzorzec dotyczy klasy, czy obiektów. Dzielmy na: <br>
+            ->Klasowe;<br>
+            ->Obiektowe.<br>
+            Patrząć na powyższe założenia klasyfikacja podstawowych wzorców wygląda następująco:
+            <h2 id = "krecayjne">wzorce kreacyjne:</h2>
+            <div id = "PanelKreacyjne">
+                <p>
+                    ➤Budowniczy (obiektowy),<br>
+                    ➤Fabryka abstrakcyjna (obiektowy),<br>
+                    ➤Metoda wytwórcza (klasowy),<br>
+                    ➤Prototyp (obiektowy),<br>
+                    ➤Singleton (obiektowy);
+                </p>
+            </div>
+            <h2 id = "strukturalne">wzorce strukturalne:</h2>
+            <div id = "PanelStruk">
+                <p>
+                    ➤Adapter (klasowy oraz obiektowy),<br>
+                    ➤Dekorator (obiektowy),<br>
+                    ➤Fasada (obiektowy),<br>
+                    ➤Kompozyt (obiektowy),<br>
+                    ➤Most (obiektowy);
+                </p>
+
+            </div>
+            <h2 id = "behawioralne">wzorce behawioralne:</h2>
+            <div id = "PanelBeh">
+                <p>
+                    ➤Łańcuch zobowiązań/odpowiedzialności (obiektowy),<br>
+                    ➤Interpreter (klasowy),<br>
+                    ➤Mediator (obiektowy),<br>
+                    ➤Pamiątka/Memento (ang. Memento) (obiektowy),<br>
+                    ➤Metoda szablonowa (ang. template method) (klasowy);
+                </p>
+            </div>
+            <br>
+            <h3 id = "MVC">MVC</h3>
+            <div id = "MVCPanel">
+                <p>
+                    <b>MVC -</b> jest jednym z najczęściej stosowanych wzorców projektowych w informatyce. Jego idee można zrozumieć rozszyfrowując nazwę: Model-View-Controller (Model-Widok-Kontroler). Głównym założeniem tego wzorca jest podzielenie kodu aplikacji na 3 moduły:<br>
+                        <br>Model - Główny nacisk kładzie na logikę aplikacji i logikę biznesową. Model powinien zostać zaprojektowany w taki sposób, aby był niezależny od wybranego rodzaju prezentacji oraz systemu obsługi akcji użytkownika.
+                        <br>Widok - zarządza graficzną lub tekstową prezentacją modelu. Widok pobiera informacje z modelu, ilekroć zostaje powiadomiony o jego zmianie.
+                        <br>Kontroler - jest odpowiedzialny za reagowanie na akcji użytkownika (np. kliknięcia myszką), odwzorowując je na operacje zawarte w modelu oraz na zmiany widoku.
+                </p>
+            </div>
+        </p>
     </div>
     <div id = "footer">
         <p>Autor: Wiktor Wolnik</p>
